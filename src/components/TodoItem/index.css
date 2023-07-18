@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.todo-list-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list-items-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.todo-name {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #000000;
+}
+.delete-btn {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 4px;
+  height: 30px;
+  width: 68px;
+  border: 1px solid #ff0b37;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .todo-name {
+    font-size: 8px;
+  }
+  .delete-btn {
+    height: 20px;
+    width: 40px;
+    font-size: 8px;
+  }
+}
